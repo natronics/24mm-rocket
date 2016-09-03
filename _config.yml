@@ -1,0 +1,22 @@
+layouts_dir:  ./_jekyll/_layouts
+
+exclude:
+  - README.markdown
+  - LICENSE
+  - Makefile
+  - deploy.sh
+  - CAD
+  - simulation/24mm_minimum_dia.ork
+encoding: "utf-8"
+markdown: kramdown
+kramdown:
+  toc_levels: "2,3"
+excerpt_separator: "\n\n\n\n"
+permalink: :categories/:year/:title/
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "article"
