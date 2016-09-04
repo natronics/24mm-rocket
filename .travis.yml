@@ -6,6 +6,7 @@ env:
   - JEKYLL_ENV=production
 before_install:
   - rvm use 2.2.3 --install --fuzzy
+  - pip install -r requirements.txt
 
 install:
  - gem install --no-document jekyll

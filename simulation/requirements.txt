@@ -1,0 +1,2 @@
+-e git+https://github.com/open-aerospace/openrocketdoc.git@8ac4b4b00fcc1c61e3e9ba31fe6563c0de8581a0#egg=openrocketdoc
+PyYAML==3.12

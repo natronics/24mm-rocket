@@ -6,12 +6,16 @@ all: _site
 deploy: _site
 	./deploy.sh
 
-_site: $(FILES) index.md
+_site: $(FILES) index.md simulation/drawing.svg
 	jekyll build
 
 index.md: README.markdown
 	echo "---\nlayout: article\ntitle: 24mm Rocket\n---\n\n" | cat - README.markdown > index.md
 
+simulation/drawing.svg: simulation/24mm_minimum_dia.ork
+	cd simulation; ./render.py > drawing.svg
+
 clean:
 	rm -rf _site/
-	rm -rf index.md
+	rm -f index.md
+	rm -f simulation/*.svg
