@@ -3,7 +3,11 @@
 
 A small rocket meant for a 24 mm solid propellent motor.
 
-[simulation](simulation)
+Documentation
+-------------
+
+ - [Simulation of the flight](simulation) using OpenRocket.
+ - [Ground Support Equipment](GSE).
 
 
 License
