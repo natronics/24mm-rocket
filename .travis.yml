@@ -12,4 +12,5 @@ install:
  - gem install --no-document jekyll
 
 script:
+ - python -m matplotlib.pyplot
  - make deploy
