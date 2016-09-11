@@ -7,11 +7,13 @@ exclude:
   - deploy.sh
   - requirements.txt
   - CAD
+  - nb-markdown.tpl
   - "GSE/*.fcstd"
   - "GSE/*.step"
   - simulation/24mm_minimum_dia.ork
-  - simulation/render.py
   - simulation/requirements.txt
+  - simulation/56-F31-12A_openrocketsim.csv
+  - "simulation/*.ipynb"
 encoding: "utf-8"
 markdown: kramdown
 kramdown:
