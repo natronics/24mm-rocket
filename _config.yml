@@ -8,10 +8,12 @@ exclude:
   - requirements.txt
   - CAD
   - nb-markdown.tpl
+  - matplotlibrc
   - "GSE/*.fcstd"
   - "GSE/*.step"
   - simulation/24mm_minimum_dia.ork
   - simulation/requirements.txt
+  - simulation/matplotlibrc
   - simulation/56-F31-12A_openrocketsim.csv
   - "simulation/*.ipynb"
 encoding: "utf-8"

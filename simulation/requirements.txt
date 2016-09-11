@@ -1,3 +1,4 @@
 -e git+https://github.com/open-aerospace/openrocketdoc.git#egg=openrocketdoc
 PyYAML==3.12
 jupyter
+matplotlib
