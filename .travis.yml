@@ -10,7 +10,6 @@ before_install:
 
 install:
  - gem install --no-document jekyll
- - pip install --use-wheel jupyter
 
 script:
  - make deploy
