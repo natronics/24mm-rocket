@@ -31,6 +31,7 @@ The assembly is modeled in [FreeCAD][freecad].
  :---: | :----------------------------- | :-------------------------- | :-----------------
    4   | ½ inch PVC Elbow Joint         | 90 angle joint for PVC tube | Any hardware store
    4   | ½ inch PVC End Cap             | Cap the ends of the holder  | Any hardware store
+   2   | ½ inch PVC Cross               | X style cross               | Any hardware store
    2   | ½ inch PVC tube, 200 mm length | Makes up the frame          | Any hardware store
    1   | Pipe Insulation Foam           | Protect rocket from frame   | Any hardware store, other soft foam may work as well
    1   | PVC Cement                     | Bond PVC together           | Any hardware store
@@ -42,9 +43,14 @@ The assembly is modeled in [FreeCAD][freecad].
 
 ![render](pvc_elbow_render.png)
 
+#### ½ inch PVC Cross (x2)
+
+![render](pvc_cross_render.png)
+
 #### ½ inch PVC End Cap (x4)
 
 ![render](pvc_endcap_render.png)
+
 
 
 ### Assembly
