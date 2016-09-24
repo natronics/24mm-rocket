@@ -13,4 +13,5 @@ install:
 
 script:
  - python -m matplotlib.pyplot
+ - python -m matplotlib.pyplot
  - make deploy
