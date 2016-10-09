@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="List of projects and interests of @natronics">
+  <meta name="author" content="@natronics">
+  <title>Burn Wire Separation Mechanism?</title>
+
+  <link rel="shortcut icon" href="/favicon.ico">
+
+  
+  <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-39517428-1', 'auto');
+      ga('send', 'pageview');
+  </script>
+  
+
+  <link href="/assets/style.css" rel="stylesheet">
+ </head>
+ <body>
+  <section>
+   <header>
+    <h1><a href="/" title="home">natronics</a> on GitHub</h1>
+    <h2>Burn Wire Separation Mechanism? &ndash; September 2016</h2>
+   </header>
+  </section>
+
+  <section>
+ <div id="main" class="container">
+  <p>I was hoping to not use black powder charges that blow the rocket in half.</p>
+
+<p>I know pyro recovery is light and simple, and generally pretty reliable. But it can be hard to test and I want to do something different. This might be a terrible idea.</p>
+
+<h2 id="storing-energy">Storing Energy</h2>
+
+<p>Fundamentally you need to store some energy to later use to separate the rocket. There aren’t too many options here, a gas generator (explosive), compressed air (like CO₂), and springs (rubber or metal). I figured I would look at metal springs since they can have very long lifetimes and be reasonably consistent. The goal isn’t to have the exact <em>same</em> ejection force every single time, but to have at least be above some threshold.</p>
+
+<p>While thinking about this and looking around the internet <a href="http://www.mcmaster.com/#1561t45/=14bqlzp">I found this neat compact compression spring on McMaster Carr</a>.</p>
+
+<p>So I drew up a quick idea of a pair of blocks that would seat against the spring. One in the Nose (red) and one in the body tube. There is an inner tube for alignment (taking up side loads) and to keep things from tangling in the spring.</p>
+
+<p><img src="../../images/2016-09-25-sep.png" alt="render" /></p>
+
+<blockquote>
+  <p>A quick FreeCAD drawing.</p>
+</blockquote>
+
+<h2 id="release">Release</h2>
+
+<p>At the very top there is an arch where a piece of monofilament line comes across the mechanism. This is tied to the base under load. The idea is you would compress the nose and body together and secure the line (somehow…). This would hold the rocket together in flight. At the tip of the device nichrome wire is wrapped around the monofilament line so that when heated the line breaks and releases the nose (at considerable force!) pulling out the parachute with it.</p>
+
+<p><img src="../../images/2016-09-25-sep.svg" alt="render" /></p>
+
+<h2 id="todo-design-issues">TODO: Design Issues</h2>
+
+<ul>
+  <li>The listed dimension of the spring isn’t <em>quite</em> the right outer diameter.</li>
+  <li>How will the line be secured? There isn’t enough clearance to tie knots.</li>
+  <li>How will the device be pressed together? It’s too hard to do by hand.</li>
+  <li>How to “safe” the device against accidental firing? A pin?</li>
+  <li>How to keep the chute from getting caught in the exposed spring?</li>
+  <li>How strong/stiff does the monofilament line need to be?</li>
+  <li>What are the side loads going to be? Is a kraft tube enough to take them up?</li>
+  <li>How fast can we burn though the wire?</li>
+</ul>
+
+ </div>
+</section>
+ 
+
+  <footer>
+   <div>
+    <p class="is-right"><a href="#">⇑ Back to top</a></p>
+    <p>made by <a href="https://github.com/natronics">natronics</a> in the vapid generic boretown of Boulder, CO.</p>
+   </div>
+  </footer>
+ </body>
+</html>
